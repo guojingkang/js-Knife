@@ -1,4 +1,6 @@
 
+import moment from 'moment';
+
 export async function getDateArray({ startDate, endDate, isDefault }) {
   let periods = [];
   if (isDefault) {
@@ -6,7 +8,7 @@ export async function getDateArray({ startDate, endDate, isDefault }) {
       const now = moment().subtract(index, 'day');
       periods.push(now);
     }
-    periods = periods.sort((a, b) => a - b).map(i => i.format('YYYY-MM-DD'));
+    periods = periods.sort((a, b) => a - b).map((i) => i.format('YYYY-MM-DD'));
   } else if (startDate === endDate) {
     periods.push(moment(startDate).format('YYYY-MM-DD'));
   } else {
@@ -21,7 +23,7 @@ export async function getDateArray({ startDate, endDate, isDefault }) {
       }
     }
   }
-  return periods; 
+  return periods;
 }
 
 /**
