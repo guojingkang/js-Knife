@@ -1,0 +1,31 @@
+{
+  "name": "js-Knife",
+  "version": "1.0.0",
+  "description": "NodeJS Dev Function && Tool Package",
+  "main": "index.js",
+  "repository": "https://github.com/guojingkang/js-Knife.git",
+  "author": "Ashes",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "babel": "^6.23.0",
+    "del": "^5.1.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "moment": "^2.24.0"
+  }
+}
