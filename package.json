@@ -1,6 +1,6 @@
 {
   "name": "js-dev-knife",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS Dev Function && Tool Package",
   "main": "index.js",
   "repository": "https://github.com/guojingkang/js-Knife.git",
